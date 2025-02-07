@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - My To-Do List</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        /* Header Section */
+        .header {
+            background: linear-gradient(45deg, #007bff, #6610f2);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        /* Info Cards */
+        .card {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>About My To-Do List</h1>
+        <p>A simple and efficient task management application.</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card p-4">
+                    <h3 class="text-center">What is My To-Do List?</h3>
+                    <p>
+                        My To-Do List is a simple, user-friendly application designed to help users organize their daily tasks efficiently. 
+                        It allows users to **add, update, and delete tasks** with a clean and interactive interface.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>✔ Easy Task Management</h5>
+                    <p>Add, edit, and remove tasks seamlessly with a simple interface.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>✔ Fully Responsive</h5>
+                    <p>The design works perfectly on mobile, tablet, and desktop devices.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>✔ Secure & Fast</h5>
+                    <p>Built with Flask and SQLite, ensuring quick and efficient performance.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technologies Used -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card p-4">
+                    <h3 class="text-center">Technologies Used</h3>
+                    <ul>
+                        <li><strong>Frontend:</strong> HTML, CSS, Bootstrap 5</li>
+                        <li><strong>Backend:</strong> Flask (Python)</li>
+                        <li><strong>Database:</strong> SQLite</li>
+                        <li><strong>Frameworks & Libraries:</strong> Flask-SQLAlchemy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Members Section (Optional) -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card p-4">
+                    <h3 class="text-center">Meet the Developer</h3>
+                    <p class="text-center">This project was developed by <strong>Subhajit Jati</strong>, a passionate web developer and Python enthusiast.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Home Button -->
+        <div class="text-center mt-4">
+            <a href="/" class="btn btn-custom">Back to Home</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
